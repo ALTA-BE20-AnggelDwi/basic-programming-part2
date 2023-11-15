@@ -2,8 +2,8 @@ package main
 
 import "fmt"
 
-func pangkat(base float64, pangkat float64) float64 {
-	result := 1.0
+func pangkat(base int, pangkat int) int {
+	result := 1
 
 	for i := 0; i < int(pangkat); i++ {
 		result *= base
