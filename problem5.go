@@ -2,7 +2,6 @@ package main
 
 import "fmt"
 
-// Fungsi untuk menghitung eksponensial tanpa menggunakan math.Pow
 func pangkat(base float64, pangkat float64) float64 {
 	result := 1.0
 
